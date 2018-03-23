@@ -6,11 +6,6 @@ Project's [white paper](https://deskbell.io/docs/deskbellchain-whitepaper-ru.pdf
 
 # Building
 Install [Node.js](https://nodejs.org)  
-Install and run [Ganache](http://truffleframework.com/ganache)  
-Install [Truffle framework](http://truffleframework.com):
-```
-> npm install -g truffle
-```
 Clone project
 ```
 > git clone https://github.com/DeskBell/dbc-ico-contracts.git
@@ -19,7 +14,7 @@ Install dependencies in project directory
 ```
 > npm i
 ```
-Deploy and test contracts
+Run test.js
 ```
-truffle test
+npm run test
 ```
